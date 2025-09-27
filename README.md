@@ -53,6 +53,7 @@ google-trends-cli/
 ```
 
 This architecture enables:
+
 - **Independent Development**: Core logic can be tested and developed separately
 - **Multiple Interfaces**: CLI and API layers share the same core logic
 - **Easy Extension**: Add new interfaces without modifying business logic
@@ -71,18 +72,18 @@ gtrends-api
 
 ### API Endpoints
 
-| Endpoint | Description |
-|----------|-------------|
-| `/api/v1/trending` | Get trending searches |
-| `/api/v1/related/topics` | Find related topics |
-| `/api/v1/related/queries` | Find related queries |
-| `/api/v1/comparison` | Compare interest across topics |
-| `/api/v1/suggestions` | Get content creation suggestions |
-| `/api/v1/opportunities` | Find writing opportunities |
-| `/api/v1/growth` | Track growth for multiple topics |
-| `/api/v1/geo` | Analyze geographic distribution |
-| `/api/v1/health` | API health check |
-| `/api/docs` | Interactive API documentation |
+| Endpoint                  | Description                      |
+| ------------------------- | -------------------------------- |
+| `/api/v1/trending`        | Get trending searches            |
+| `/api/v1/related/topics`  | Find related topics              |
+| `/api/v1/related/queries` | Find related queries             |
+| `/api/v1/comparison`      | Compare interest across topics   |
+| `/api/v1/suggestions`     | Get content creation suggestions |
+| `/api/v1/opportunities`   | Find writing opportunities       |
+| `/api/v1/growth`          | Track growth for multiple topics |
+| `/api/v1/geo`             | Analyze geographic distribution  |
+| `/api/v1/health`          | API health check                 |
+| `/api/docs`               | Interactive API documentation    |
 
 For detailed API documentation, visit the `/api/docs` endpoint when the server is running.
 
@@ -261,7 +262,7 @@ gtrends writing-opportunities "book publishing" "fiction" --count=10
 gtrends compare "self-publishing" "traditional publishing" --visualize
 
 # Monitor rapid growth patterns for genres (independently normalized)
-gtrends topic-growth "mystery" "thriller" "romance" "sci-fi" "fantasy" --period=7d 
+gtrends topic-growth "mystery" "thriller" "romance" "sci-fi" "fantasy" --period=7d
 ```
 
 ### Export Options
@@ -282,30 +283,30 @@ gtrends compare "fiction" "non-fiction" --export --format=json
 
 ## 📋 Available Commands
 
-| Command | Description |
-|---------|-------------|
-| `trending` | Show current trending searches |
-| `related` | Find related topics and queries |
-| `suggest-topics` | Get content creation suggestions |
-| `compare` | Compare interest across topics |
+| Command                 | Description                         |
+| ----------------------- | ----------------------------------- |
+| `trending`              | Show current trending searches      |
+| `related`               | Find related topics and queries     |
+| `suggest-topics`        | Get content creation suggestions    |
+| `compare`               | Compare interest across topics      |
 | `writing-opportunities` | Find specific writing opportunities |
-| `topic-growth` | Track growth for multiple topics |
-| `geo-interest` | Analyze geographic distribution |
-| `categories` | List available content categories |
-| `geo` | Search for location codes |
-| `help-timeframe` | Show timeframe format help |
+| `topic-growth`          | Track growth for multiple topics    |
+| `geo-interest`          | Analyze geographic distribution     |
+| `categories`            | List available content categories   |
+| `geo`                   | Search for location codes           |
+| `help-timeframe`        | Show timeframe format help          |
 
 ## ⚙️ Common Options
 
-| Option | Description |
-|--------|-------------|
-| `--region`, `-r` | Region code (e.g., US, GB, AE) |
-| `--count`, `-n` | Number of results to display |
+| Option              | Description                               |
+| ------------------- | ----------------------------------------- |
+| `--region`, `-r`    | Region code (e.g., US, GB, AE)            |
+| `--count`, `-n`     | Number of results to display              |
 | `--timeframe`, `-t` | Time range (e.g., 'now 1-d', 'today 3-m') |
-| `--export`, `-e` | Export results to file |
-| `--export-path` | Directory to save exported data |
-| `--format`, `-f` | Export format (csv, json, xlsx) |
-| `--visualize`, `-v` | Generate visualization |
+| `--export`, `-e`    | Export results to file                    |
+| `--export-path`     | Directory to save exported data           |
+| `--format`, `-f`    | Export format (csv, json, xlsx)           |
+| `--visualize`, `-v` | Generate visualization                    |
 
 ## 🕒 Timeframe Formats
 
@@ -325,14 +326,12 @@ For a complete list of changes, see the [Changelog](CHANGELOG.md).
 - **0.2.0**: Service-oriented architecture, API access, enhanced visualization
 - **0.1.x**: Initial release with core functionality
 
-
 ## 👥 Authors
 
 This project is brought to you by:
 
-- **[Mohammed A. Al-Kebsi](https://mohammed-al-kebsi.space)** ([@Nao-30](https://github.com/Nao-30))
-- **[Abdulrahman Mohammed](https://obad-dev.mohammed-al-kebsi.space/)** ([@Abdulrahman-YE](https://github.com/Abdulrahman-YE))
-
+- **[Mohammed A. Al-Kebsi](https://mohammed-alkebsi.dev)** ([@Nao-30](https://github.com/Nao-30))
+- **[Abdulrahman Mohammed](https://obad-dev.mohammed-alkebsi.dev/)** ([@Abdulrahman-YE](https://github.com/Abdulrahman-YE))
 
 ## Top contributors:
 
@@ -341,7 +340,6 @@ This project is brought to you by:
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 👥 Contributing
 

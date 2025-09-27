@@ -51,7 +51,7 @@ setup(
     name="gtrends-cli",
     version="0.3.4",
     author="Mohammed A. Al-Kebsi",
-    author_email="mohammed.k@mohammed-al-kebsi.space",
+    author_email="mohammed.k@mohammed-alkebsi.dev",
     description="CLI and API tools for Google Trends data analysis and content suggestions",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -73,8 +73,10 @@ setup(
     python_requires=">=3.9",
     install_requires=install_requires,
     entry_points={
-        "console_scripts": ["gtrends=gtrends_cli.main:cli",
-                            "gtrends-api=gtrends_api.main:start_api"],
+        "console_scripts": [
+            "gtrends=gtrends_cli.main:cli",
+            "gtrends-api=gtrends_api.main:start_api",
+        ],
     },
     extras_require=extras_require,
     include_package_data=True,
