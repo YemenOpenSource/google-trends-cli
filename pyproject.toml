@@ -8,7 +8,7 @@ version = "0.3.4"
 description = "CLI and API tools for Google Trends data analysis and content suggestions"
 readme = "README.md"
 authors = [
-    {name = "Mohammed A. Al-Kebsi", email = "mohammed.k@mohammed-al-kebsi.space"}
+    {name = "Mohammed A. Al-Kebsi", email = "mohammed.k@mohammed-alkebsi.dev"}
 ]
 license = {text = "MIT"}
 classifiers = [
@@ -34,7 +34,7 @@ Documentation = "https://github.com/Nao-30/google-trends-cli/tree/main/docs"
 Repository = "https://github.com/Nao-30/google-trends-cli.git"
 Issues = "https://github.com/Nao-30/google-trends-cli/issues"
 Changelog = "https://github.com/Nao-30/google-trends-cli/blob/main/CHANGELOG.md"
-MyBlog = "https://blog.mohammed-al-kebsi.space"
+MyBlog = "https://blog.mohammed-alkebsi.dev"
 "Download Link" = "https://github.com/Nao-30/google-trends-cli/archive/refs/tags/v0.3.4.tar.gz"
 
 [project.scripts]
